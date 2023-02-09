@@ -247,7 +247,7 @@ select{
 
 @media  screen and (max-width:1400px){
     body{
-        background-color: rgb(46, 117, 117);
+        background-color: rgb(186, 97, 52);
     }
     .home > button{
         margin-left: 50%;
@@ -319,7 +319,7 @@ select{
 }
 @media  screen and (max-width:1200px){
     body{
-        background-color: rgb(131, 110, 16);
+        background-color: rgb(186, 97, 52);
     }
     .home > button{
         margin-left: 50%;
