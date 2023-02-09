@@ -1,0 +1,167 @@
+.heading{
+    height: 100px;
+    width: 100%;
+    background-color: orange;
+    display: inline-block;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+.logo > p{
+    font-size: 35px;
+    margin-left: 6px;
+    margin-top: 25px;
+    color: red;
+}
+
+.home > button{
+    float: left;
+    margin-left: 70%;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 25px;
+    
+}
+.login > button{
+    float: left;
+    margin-left: 2%;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 25px;
+    
+}
+.signup > button{
+    /* float: left; */
+    margin-left: 2%;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 25px;
+    
+}
+/* /////////Main Block///////////// */
+.mainblock{
+    /* height: 1000px; */
+    width: 90%;
+    /* border: 5px solid greenyellow; */
+    margin-left: 5%;
+    margin-top: 30px;
+    display: inline-block;
+    background-color: bisque;
+}
+.filter{
+    /* height: 500px; */
+    width: 20%;
+    /* border: 5px solid salmon; */
+    margin-top: 30px;
+    margin-left: 2%;
+    float: left;
+}
+#f1{
+    font-size: 30px;
+    color: rgb(9, 5, 77);
+
+}
+#f2{
+    font-size: 25px;
+    color: rgb(9, 5, 77);
+}
+.dropdown > select{
+    height: 50px;
+    width:100% ;
+    font-size: 20px;
+    text-align: center;
+}
+.cuisine{
+    color: rgb(9, 5, 77);
+}
+#f3{
+    font-size: 25px;
+}
+.cuisine > input{
+    font-size: 20px;
+
+}
+
+.Results{
+    /* border: 5px solid blue; */
+    margin-left: 25%;
+    /* height: 700px; */
+    width: 70%;
+    margin-top: 30px;
+
+}
+.block{
+    height: 200px;
+    width: 95%;
+    /* border: 5px dotted red; */
+    margin: 2%;
+    display: inline-block;
+    box-shadow: 10px 10px rgb(229, 170, 118);
+}
+.part1 > img{
+    float: left;
+    height: 100%;
+    width: 30%;
+    border-radius: 20%;
+    margin-right: 5%;
+
+}
+
+
+
+/* /////Footer////////////// */
+
+.footer{
+    display: inline-block;
+    height: 280px;
+    width: 100%;
+    background-color:brown;
+}
+.copyRight{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.footSec1{
+    display: inline-block;
+    margin-left: 30px;
+    height: 80px;
+    width: 30%;
+    border-right: 3px solid black;
+    font-size: 20px;
+}
+.footSec2{
+    display:inline-block;
+    margin-left: 30px;
+    height: 80px;
+    width: 30%;
+    border-right: 3px solid black;
+    font-size: 20px;
+}
+.footSec3{
+    display:inline-block;
+    margin-left: 30px;
+    height: 80px;
+    width: 30%;
+    font-size: 20px;
+}
+.social {
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content:center;
+    /* margin: left 10px; */
+    
+}
+.social > img{
+    margin-left: 20px;
+}

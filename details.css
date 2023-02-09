@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(242, 235, 235);
+}
+.heading{
+    height: 100px;
+    width: 100%;
+    background-color: orange;
+    display: inline-block;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+.logo > p{
+    font-size: 35px;
+    margin-left: 6px;
+    margin-top: 25px;
+    color: red;
+}
+
+.home > button{
+    float: left;
+    margin-left: 70%;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 25px;
+    
+}
+.login > button{
+    float: left;
+    margin-left: 2%;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 25px;
+    
+}
+.signup > button{
+    /* float: left; */
+    margin-left: 2%;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 25px;
+    
+}
+/* /////////Main Block///////////// */
+.mainblock
+{
+    /* border: 5px double blue; */
+    /* height: 500px; */
+    width: 95%;
+    margin: 2%;
+    display: inline-block;
+}
+.part1 > img
+{
+    /* border: 5px solid red; */
+    height: 95%;
+    width: 50%;
+    border-radius:10% ;
+    float: left;
+}
+.part2{
+    float: right;
+    height:100%;
+    width: 48%;
+    /* border: 5px solid green; */
+    /* background-color: rgb(242, 235, 235); */
+}
+#a1{
+    color: rgb(5, 5, 93);
+}
+.a2{
+    color: yellow;
+}
+#a3 > img{
+    height: 30px;
+    width: 30px;
+    /* float: left; */
+    margin-right: 2%;
+}
+
+/* /////Footer////////////// */
+
+.footer{
+    display: inline-block;
+    height: 280px;
+    width: 100%;
+    background-color:brown;
+}
+.copyRight{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.footSec1{
+    display: inline-block;
+    margin-left: 30px;
+    height: 80px;
+    width: 30%;
+    border-right: 3px solid black;
+    font-size: 20px;
+}
+.footSec2{
+    display:inline-block;
+    margin-left: 30px;
+    height: 80px;
+    width: 30%;
+    border-right: 3px solid black;
+    font-size: 20px;
+}
+.footSec3{
+    display:inline-block;
+    margin-left: 30px;
+    height: 80px;
+    width: 30%;
+    font-size: 20px;
+}
+.social {
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content:center;
+    /* margin: left 10px; */
+    
+}
+.social > img{
+    margin-left: 20px;
+}
